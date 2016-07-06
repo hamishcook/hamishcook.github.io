@@ -100,75 +100,75 @@ a {
 }
 
 #paloalto {
-    background-image: url('../images/paloalto.jpg');
+    background-image: url('../Images/paloalto.jpg');
 }
 
 #atlanta {
-    background-image: url('../images/atlanta.jpg');
+    background-image: url('../Images/atlanta.jpg');
 }
 
 #berlin {
-    background-image: url('../images/berlin.jpg');
+    background-image: url('../Images/berlin.jpg');
 }
 
 #boston {
-    background-image: url('../images/boston.jpg');
+    background-image: url('../Images/boston.jpg');
 }
 
 #boulder {
-    background-image: url('../images/boulder.jpg');
+    background-image: url('../Images/boulder.jpg');
 }
 
 #chicago {
-    background-image: url('../images/chicago.jpg');
+    background-image: url('../Images/chicago.jpg');
 }
 
 #denver {
-    background-image: url('../images/denver.jpg');
+    background-image: url('../Images/denver.jpg');
 }
 
 #dublin {
-    background-image: url('../images/dublin.jpg');
+    background-image: url('../Images/dublin.jpg');
 }
 
 #london {
-    background-image: url('../images/london.jpg');
+    background-image: url('../Images/london.jpg');
 }
 
 #losangeles {
-    background-image: url('../images/losangeles.jpg');
+    background-image: url('../Images/losangeles.jpg');
 }
 
 #newyork {
-    background-image: url('../images/newyork.jpg');
+    background-image: url('../Images/newyork.jpg');
 }
 
 #sanfrancisco {
-    background-image: url('../images/sanfrancisco.jpg');
+    background-image: url('../Images/sanfrancisco.jpg');
 }
 
 #seattle {
-    background-image: url('../images/seattle.jpg');
+    background-image: url('../Images/seattle.jpg');
 }
 
 #singapore {
-    background-image: url('../images/singapore.jpg');
+    background-image: url('../Images/singapore.jpg');
 }
 
 #sydney {
-    background-image: url('../images/sydney.jpg');
+    background-image: url('../Images/sydney.jpg');
 }
 
 #tokyo {
-    background-image: url('../images/tokyo.jpg');
+    background-image: url('../Images/tokyo.jpg');
 }
 
 #toronto {
-    background-image: url('../images/toronto.jpg');
+    background-image: url('../Images/toronto.jpg');
 }
 
 #washingtondc {
-    background-image: url('../images/washingtondc.jpg');
+    background-image: url('../Images/washingtondc.jpg');
 }
 
 #locations {
@@ -254,13 +254,13 @@ a {
 }
 
 .mercury-image {
-    background-image: url('../images/the-mercury-atlanta.jpg');
+    background-image: url('../Images/the-mercury-atlanta.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .optimist-image {
-    background-image: url('../images/theoptimist.jpg');
+    background-image: url('../Images/theoptimist.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
