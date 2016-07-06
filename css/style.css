@@ -1,46 +1,274 @@
-header{
-	background-color: black;
-	width: 100%;
-	overflow:auto;
+body, html{
+    font-family: 'Roboto', serif; 
+    margin: 0;
+    height: 100%;
+    background: #F1F1F1;
 }
 
-nav ul li {
-	display:inline;
+header {
+    height: 62px;
+    background-color:#17232a;
 }
 
-.logo {
-	color:yellow;
+header img {
+    height: 30px;
+    padding: 15px;
+    background-color: #026d63;
+    margin-left:20px;
 }
 
-ul{
-	color:white;
-	text-align: right;
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.2em;
+    color: #333333;
+    font-weight: 300;   
 }
 
-section{
-	background-color: gray;
-	width:100%;
-	padding: 15px;
-}
-
-h1{
-	color:black;
-	text-align: center;
-}
-
-#matchmaker{
-	background-image: url("../images/matchmaker.png");
+#locations-grid {
+    height: 1320px;
     width: 100%;
-    height: 400px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.2em;
+    color: #333333;
+    font-weight: 300;   
+}
+
+h3 {
+    text-align: left;
+    font-size: 24px;
+    line-height: 1.2em;
+    color: #333333;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+h4 {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #333333;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid-image {
+    width: 33%;
+    height: 220px;
+    min-height: 220px;
+    display: inline-block; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;   
+}
+
+@media screen and (max-width: 900px) {
+    .grid-image {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .grid-image {
+        width: 100%;
+    }
+}
+
+.grid-image p {
+    line-height: 220px;
+    margin: 0px;
+    font-family: 'Roboto', serif;
+    font-size: 40px;
+    font-weight: 300;
+    background:rgba(0,0,0,0.2);
+    color: white;
+}
+
+#washingtondc p {
+    line-height: 220px;
+}
+
+#paloalto {
+    background-image: url('../images/paloalto.jpg');
+}
+
+#atlanta {
+    background-image: url('../images/atlanta.jpg');
+}
+
+#berlin {
+    background-image: url('../images/berlin.jpg');
+}
+
+#boston {
+    background-image: url('../images/boston.jpg');
+}
+
+#boulder {
+    background-image: url('../images/boulder.jpg');
+}
+
+#chicago {
+    background-image: url('../images/chicago.jpg');
+}
+
+#denver {
+    background-image: url('../images/denver.jpg');
+}
+
+#dublin {
+    background-image: url('../images/dublin.jpg');
+}
+
+#london {
+    background-image: url('../images/london.jpg');
+}
+
+#losangeles {
+    background-image: url('../images/losangeles.jpg');
+}
+
+#newyork {
+    background-image: url('../images/newyork.jpg');
+}
+
+#sanfrancisco {
+    background-image: url('../images/sanfrancisco.jpg');
+}
+
+#seattle {
+    background-image: url('../images/seattle.jpg');
+}
+
+#singapore {
+    background-image: url('../images/singapore.jpg');
+}
+
+#sydney {
+    background-image: url('../images/sydney.jpg');
+}
+
+#tokyo {
+    background-image: url('../images/tokyo.jpg');
+}
+
+#toronto {
+    background-image: url('../images/toronto.jpg');
+}
+
+#washingtondc {
+    background-image: url('../images/washingtondc.jpg');
+}
+
+#locations {
+    width: 121px;
+    height: 30px;
+    background-color: #059a91;
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 8px;
+    font-weight: 300;
+}
+
+#details-page {
+    /*overflow: hidden;*/
+}
+
+.container {
+    position: relative;
+    height: 93%;
+    width: 100%;
+}
+ 
+#main-menu {
+    background: #202F38;
+}
+
+.sidebar {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    box-sizing: border-box;
+   -moz-box-sizing: border-box;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 0;
+}
+
+.sidebar ul li a {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #93A8B3;
+    -webkit-transition:  background 0.3s ease-in-out;
+    -moz-transition:  background 0.3s ease-in-out;
+    -ms-transition:  background 0.3s ease-in-out;
+    -o-transition:  background 0.3s ease-in-out;
+    transition:  background 0.3s ease-in-out;
+}
+
+.sidebar ul li:hover a {
+    background: #026d63;
+}
+
+#sub-menu {
+    left: 10%;
+    background: #93A8B3;
+}
+
+.main-content {
+    height: 100%;
+    width: 80%;
+    left: 20%;
+    position: relative;
+}
+
+.main-content .main-image {
+    width: 100%;
+    height: 33%;
+}
+
+.mercury-image {
+    background-image: url('../images/the-mercury-atlanta.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#meetyourmatch{
-	background-color: red;
-	width:300px;
-	color:black;
-	float:right;
-	padding: 30px;
-	margin:80px 60px;
+.optimist-image {
+    background-image: url('../images/theoptimist.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#map {
+    height: 33%;
+    width: 100%;
+    position: absolute; 
+    bottom: 0;
+    right: 0;
 }

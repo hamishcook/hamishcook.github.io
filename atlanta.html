@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- <meta charset="utf-8">
+    <meta name="description" content="Your description goes here">
+    <meta name="keywords" content="one, two, three">
+     -->
+    <title>Cookie's Page</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="details-page">
+    <header>
+        <img src="images/pivotalLogo.svg"></img>
+        <a href="index.html">
+            <div id="locations">Locations</div>
+        </a>
+    </header>
+    <div class="container">
+        <div id="main-menu" class="sidebar">
+            <ul>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">Cafe's</a></li>
+                <li><a href="#">Bars</a></li>
+                <li><a href="#">Post Office</a></li>
+                <li><a href="#">Laundromat</a></li>
+            </ul>
+        </div>
+        <div id="sub-menu" class="sidebar">
+            <ul>
+                <li id="mercury"><a href="#">The Mercury</a></li>
+                <li id="optimist" data-lat="33" data-lng="44"><a href="#">The Optimist</a></li>
+                <li id="bar-taco"><a href="#">Bar Taco</a></li>
+                <li id="jct-kitchen"><a href="#">JCT Kitchen</a></li>
+                <li id="rathbuns"><a href="#">Rathbuns</a></li>
+                <li id="serpas"><a href="#">Serpas</a></li>
+            </ul>
+        </div>
+        <section class="main-content">
+            <div class="main-image mercury-image"></div>
+            <div class="location-content">
+                <div class="mercury-content">
+                    <h3>The Mercury</h3>
+                    <h4>'60s-inspired American steaks & seafood, plus classic drinks, served in chic, midcentury-style digs.</h4>
+                    <h4>Ponce City Market, 675 Ponce De Leon Ave NE, Atlanta, GA 30308</h4>
+                    <h4><a href="http://themercuryatl.com" target="_blank">themercuryatl.com</a></h4>
+                    <h4>(404) 500-5253</h4>
+                </div>
+                <div class="optimist-content">
+                    <h3>The Optimist</h3>
+                    <h4>Lobster rolls, gumbo, wood-fired oysters & more in a lofty, country-modern space with a raw bar.</h4>
+                    <h4>914 Howell Mill Rd, Atlanta, GA 30318</h4>
+                    <h4><a href=“http://theoptimistrestaurant.com” target=“_blank”>theoptimistrestaurant.com</a></h4>
+                    <h4>(404) 477-6260</h4>
+                </div>
+            </div>
+            <div id="map"></div>
+        </section>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+    
+    <script src="scripts.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSHAlutrdQee_jFG592hEYTEZkJBY0Npo&callback=initMap" async defer></script>
+</body>
+
+</html>
+<!-- ***RESTAURANTS***
+
+
+
+<h3>Serpas</h3>
+<h4>Former warehouse with a chic vibe serves Cajun-inspired American cuisine under soaring ceilings.</h4>
+<h4>659 Auburn Ave NE #501, Atlanta, GA 30312</h4>
+<h4><a href="serpasrestaurant.com" target="_blank">serpasrestaurant.com</a></h4>
+<h4>(404) 688-0040</h4>
+
+
+<h3>Rathbuns</h3>
+<h4>This lively spot serves creative American plates in a stylish, renovated warehouse.</h4>
+<h4>112 Krog St NE, Atlanta, GA 30307</h4>
+<h4><a href="rathbunsrestaurant.com" target="_blank">rathbunsrestaurant.com</a></h4>
+<h4>(404) 524-8280</h4>
+
+
+<h3>JCT Kitchen</h3>
+<h4>Updated Southern fare in hip space with late-night live music, plus upstairs bar with skyline view.</h4>
+<h4>Westside Urban Market, 1198 Howell Mill Rd #18, Atlanta, GA 30318</h4>
+<h4><a href="jctkitchen.com" target="_blank">jctkitchen.com</a></h4>
+<h4>(404) 355-2252</h4>
+
+
+<h3>Bar Taco</h3>
+<h4>Stylish Mexican spot serving serving classic & creative tacos along with a large drinks list.</h4>
+<h4>969 Marietta St, Atlanta, GA 30318</h4>
+<h4><a href="bartaco.com" target="_blank">bartaco.com</a></h4>
+<h4>(404) 607-8226</h4> -->
+<!-- **CAFES***
+
+<h3>Condessa Coffee</h3>
+<h4>Industrial-modern espresso bar creates an inviting atmosphere with cocktails, beer & small plates.</h4>
+<h4>480 John Wesley Dobbs Ave NE #100, Atlanta, GA 30312</h4>
+<h4><a href="condesacoffee.com" target="_blank">condesacoffee.com</a></h4>
+<h4>(404) 524-5054</h4>
+
+
+<h3>Cafe Intermezzo</h3>
+<h4>European-style coffeehouse offers more than 800 beverages & 70 pastries plus crêpes, burgers & more.</h4>
+<h4>1065 Peachtree St NE, Atlanta, GA 30309</h4>
+<h4>cafeintermezzo.com<a href="" target="_blank">cafeintermezzo.com</a></h4>
+<h4>(404) 355-0411</h4> -->
+<!-- ***BARS***
+
+<h3>Brick Store Pub</h3>
+<h4>Casual pub grub like fish 'n' chips is served at this beer-focused tavern with upstairs Belgian Bar.</h4>
+<h4>125 E Court Square, Decatur, GA 30030</h4>
+<h4><a href="brickstorepub.com" target="_blank">brickstorepub.com</a></h4>
+<h4>(404) 687-0990</h4>
+
+<h3>Noni's</h3>
+<h4>Hip neighborhood trattoria with patio serves Italian comfort food, plus a full bar & dance parties.</h4>
+<h4>357 Edgewood Ave SE, Atlanta, GA 30312</h4>
+<h4><a href="nonisdeli.com" target="_blank">nonisdeli.com</a></h4>
+<h4>(404) 343-1808</h4>
+
+<h3>The Pinewood Tippling Room</h3>
+<h4>Hip, urban-rustic gastropub featuring elevated comfort food, modern cocktails & liquor flights.</h4>
+<h4>254 W Ponce de Leon Ave, Decatur, GA 30030</h4>
+<h4><a href="pinewoodtr.com" target="_blank">pinewoodtr.com</a></h4>
+<h4>(404) 373-5507</h4> -->
+<!-- ***POST OFFICE***
+
+<h3>US Post Office Buckhead</h3>
+<h4>575 Pharr Rd NE, Atlanta, GA 30355</h4>
+<h4><a href="usps.com" target="_blank">usps.com</a></h4>
+<h4>(404) 239-0954</h4>
+
+
+<h3>US Post Office Midtown</h3>
+<h4>1072 West Peachtree St NW, Atlanta, GA 30309</h4>
+<h4><a href="usps.com" target="_blank">usps.com</a></h4>
+<h4>(404) 873-4813</h4>
+
+<h3>US Post Office Piedmont Ave</h3>
+<h4>570 Piedmont Ave NE, Atlanta, GA 30308</h4>
+<h4><a href="usps.com" target="_blank">usps.com</a></h4>
+<h4>(404) 874-8718</h4>
+
+
+***LAUNDROMAT***
+
+<h3>Poncey Laundry & Dry Cleaners</h3>
+<h4>231 Ponce De Leon Ave NE, Atlanta, GA 30308</h4>
+<h4>(404) 817-0740</h4>
+
+
+<h3>Piedmont Cleaners & Alterations</h3>
+<h4>1000 Piedmont Ave NE, Atlanta, GA 30309</h4>
+<h4>(404) 875-0999</h4> -->
